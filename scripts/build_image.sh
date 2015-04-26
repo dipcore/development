@@ -16,7 +16,7 @@ function get-configs()
     echo -e "\033[41;37mTarget device: $TARGET_DEVICE\033[0m"
     echo -e "\033[41;37mProduct brand: $PRODUCT_BRAND\033[0m"
     TARGET_DEVICE_DIR=$ANDROID_BUILD_TOP/device/$PRODUCT_BRAND/$TARGET_DEVICE
-    RELEASE_OUT=$ANDROID_BUILD_TOP/../images/kitkat/$TARGET_DEVICE
+    RELEASE_OUT=$ANDROID_BUILD_TOP/mstar_images/kitkat/$TARGET_DEVICE
     PRODUCT_OUT=$ANDROID_BUILD_TOP/out/target/product/$TARGET_DEVICE
     AUTO_UPDATE_SCRIPT=$RELEASE_OUT/auto_update.txt
 
