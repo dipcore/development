@@ -166,8 +166,8 @@ function func_init_common_env(){
         export PATH=$PATH:$ANDROID_BUILD_TOP/prebuilts/tools/linux-x86/crc
     fi
     if [ ! -d "$SCRIPT_DIR" ]; then
-        SCRIPT_DIR=$ANDROID_BUILD_TOP/../images/$AN/$DEVICE/scripts
-        IMAGE_DIR=$ANDROID_BUILD_TOP/../images/$AN/$DEVICE
+        SCRIPT_DIR=$ANDROID_BUILD_TOP/mstar_images/$AN/$DEVICE/scripts
+        IMAGE_DIR=$ANDROID_BUILD_TOP/mstar_images/$AN/$DEVICE
     fi
 
     if [ "$UPDAT_METHOD" == "network" ]; then
